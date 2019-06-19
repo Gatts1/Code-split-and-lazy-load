@@ -21,7 +21,7 @@ function FormFeedback() {
   return (
     <PeersProvider value={peers}>
       <StepProvider value={step}>
-        <h1>Codeable Feedback Form</h1>
+        <h1>CODEABLE Feedback Form</h1>
         <React.Suspense fallback={<Spinner />}>
           {step < 3 ? (
             <>
